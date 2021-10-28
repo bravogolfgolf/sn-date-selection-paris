@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_dictionary action="INSERT_OR_UPDATE" element="" table="x_402400_dateselec_fiscal_calendar">
+    <sys_dictionary action="INSERT_OR_UPDATE" element="u_amount" table="x_402400_dateselec_fiscal_funding">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes/>
+        <attributes>edge_encryption_enabled=true,omit_sys_original=true</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -14,7 +14,7 @@
         <choice/>
         <choice_field/>
         <choice_table/>
-        <column_label/>
+        <column_label>Amount</column_label>
         <comments/>
         <create_roles/>
         <default_value/>
@@ -27,15 +27,15 @@
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element/>
+        <element>u_amount</element>
         <element_reference>false</element_reference>
         <foreign_database/>
         <function_definition/>
         <function_field>false</function_field>
-        <internal_type display_value="Collection">collection</internal_type>
+        <internal_type display_value="Currency">currency</internal_type>
         <mandatory>false</mandatory>
-        <max_length>40</max_length>
-        <name>x_402400_dateselec_fiscal_calendar</name>
+        <max_length>20</max_length>
+        <name>x_402400_dateselec_fiscal_funding</name>
         <next_element/>
         <primary>false</primary>
         <read_only>false</read_only>
@@ -47,21 +47,21 @@
         <reference_qual/>
         <reference_qual_condition/>
         <reference_type/>
-        <sizeclass>3</sizeclass>
+        <sizeclass/>
         <spell_check>false</spell_check>
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-10-27 20:10:54</sys_created_on>
-        <sys_id>8e3064101ba730101f1b96c6b04bcb94</sys_id>
+        <sys_created_on>2021-10-28 15:35:33</sys_created_on>
+        <sys_id>17aaa8e01b2330101f1b96c6b04bcbca</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>x_402400_dateselec_fiscal_calendar</sys_name>
+        <sys_name>Amount</sys_name>
         <sys_package display_value="DateSelection" source="x_402400_dateselec">ce0098d01b6730101f1b96c6b04bcbe5</sys_package>
         <sys_policy/>
         <sys_scope display_value="DateSelection">ce0098d01b6730101f1b96c6b04bcbe5</sys_scope>
-        <sys_update_name>sys_dictionary_x_402400_dateselec_fiscal_calendar_NULL</sys_update_name>
+        <sys_update_name>sys_dictionary_x_402400_dateselec_fiscal_funding_u_amount</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-10-28 15:36:43</sys_updated_on>
+        <sys_updated_on>2021-10-28 15:35:33</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

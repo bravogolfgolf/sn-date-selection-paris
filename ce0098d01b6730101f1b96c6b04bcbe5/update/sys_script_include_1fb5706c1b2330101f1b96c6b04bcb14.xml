@@ -10,14 +10,16 @@
         <script><![CDATA[var Utilities = Class.create();
 Utilities.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
     fiscalFunding: function() {
-        var fiscalYears = [];
+		var fiscalYear = gs.getProperty('x_402400_dateselec.fiscal_year');
+        var fiscalYearNames = [];
         var records = new GlideRecord('x_402400_dateselec_fiscal_calendar');
+		records.addEncodedQuery('u_nameLIKE' + fiscalYear);
         records.query();
         while (records.next()) {
             var name = records.u_name.toString();
-            fiscalYears.push(name);
+            fiscalYearNames.push(name);
         }
-        return fiscalYears;
+        return 'u_nameIN' + fiscalYearNames;
     },
     type: 'Utilities'
 });]]></script>
@@ -25,13 +27,13 @@ Utilities.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-10-28 16:23:56</sys_created_on>
         <sys_id>1fb5706c1b2330101f1b96c6b04bcb14</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_name>Utilities</sys_name>
         <sys_package display_value="DateSelection" source="x_402400_dateselec">ce0098d01b6730101f1b96c6b04bcbe5</sys_package>
         <sys_policy>read</sys_policy>
         <sys_scope display_value="DateSelection">ce0098d01b6730101f1b96c6b04bcbe5</sys_scope>
         <sys_update_name>sys_script_include_1fb5706c1b2330101f1b96c6b04bcb14</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-10-28 17:06:02</sys_updated_on>
+        <sys_updated_on>2021-10-28 20:43:47</sys_updated_on>
     </sys_script_include>
 </record_update>

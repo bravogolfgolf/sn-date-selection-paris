@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Fiscal Funding" max_length="40" name="x_402400_dateselec_fiscal_funding" type="collection">
+        <element attributes="edge_encryption_enabled=true,omit_sys_original=true" label="Amount" max_length="20" name="u_amount" type="currency"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Fiscal Year" max_length="32" name="u_fiscal_year" reference="x_402400_dateselec_fiscal_calendar" type="reference"/>
+        <index name="index">
+            <element name="u_fiscal_year"/>
+        </index>
+    </element>
+</database>

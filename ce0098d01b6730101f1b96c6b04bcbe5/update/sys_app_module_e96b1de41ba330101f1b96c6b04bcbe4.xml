@@ -8,35 +8,35 @@
         <hint/>
         <homepage/>
         <image/>
-        <link_type>LIST</link_type>
+        <link_type>DIRECT</link_type>
         <map_page/>
-        <mobile_title>Fiscal Fundings</mobile_title>
+        <mobile_title>Configuration</mobile_title>
         <mobile_view_name>Mobile</mobile_view_name>
-        <name>x_402400_dateselec_fiscal_funding</name>
+        <name/>
         <order/>
         <override_menu_roles>false</override_menu_roles>
-        <query/>
+        <query>./nav_to.do?uri=%2F$system_properties_ui.do%3Fsysparm_title%3DSystem%20Configuration%26sysparm_category%3DFiscal%20Year%20Application%20Configuration</query>
         <report/>
-        <roles>x_402400_dateselec.fiscal_funding_user</roles>
+        <roles/>
         <sys_class_name>sys_app_module</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-10-28 15:33:15</sys_created_on>
+        <sys_created_on>2021-10-28 19:10:24</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>504aa0e01b2330101f1b96c6b04bcbcc</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_name>Fiscal Funding</sys_name>
+        <sys_id>e96b1de41ba330101f1b96c6b04bcbe4</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_name>Configuration</sys_name>
         <sys_overrides/>
         <sys_package display_value="DateSelection" source="x_402400_dateselec">ce0098d01b6730101f1b96c6b04bcbe5</sys_package>
         <sys_policy/>
         <sys_scope display_value="DateSelection">ce0098d01b6730101f1b96c6b04bcbe5</sys_scope>
-        <sys_update_name>sys_app_module_504aa0e01b2330101f1b96c6b04bcbcc</sys_update_name>
+        <sys_update_name>sys_app_module_e96b1de41ba330101f1b96c6b04bcbe4</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-10-28 19:50:06</sys_updated_on>
+        <sys_updated_on>2021-10-28 19:41:16</sys_updated_on>
         <timeline_page/>
-        <title>Fiscal Funding</title>
+        <title>Configuration</title>
         <uncancelable>false</uncancelable>
         <view_name/>
-        <window_name/>
+        <window_name>Fiscal Year Application Configuration</window_name>
     </sys_app_module>
 </record_update>

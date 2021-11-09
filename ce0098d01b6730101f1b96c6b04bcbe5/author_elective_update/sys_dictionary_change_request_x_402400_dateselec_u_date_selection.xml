@@ -100,14 +100,16 @@
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-10-27 19:56:51</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
         <sys_db_object display_value="" name="sys_dictionary">sys_dictionary</sys_db_object>
         <sys_id>4325550079a84c309325913efe8007a4</sys_id>
         <sys_metadata>7ae09c141b6730101f1b96c6b04bcbb3</sys_metadata>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>DateSelection</sys_name>
         <sys_package display_value="DateSelection" source="x_402400_dateselec">ce0098d01b6730101f1b96c6b04bcbe5</sys_package>
-        <sys_parent display_value="Change Request">1a557e458d272010d152b9319a20244b</sys_parent>
+        <sys_parent display_value="">1a557e458d272010d152b9319a20244b</sys_parent>
         <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="DateSelection">ce0098d01b6730101f1b96c6b04bcbe5</sys_scope>
         <sys_scope_delete display_value="">0041bf266d1048308af942dc15d82840</sys_scope_delete>
         <sys_update_name>sys_dictionary_change_request_x_402400_dateselec_u_date_selection</sys_update_name>

@@ -65,10 +65,11 @@
         <update_guid_history>b930dcd0a1673010846cedac3ef5e7fb:-2100760640</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Open - Unassigned">11fb905c1b6730101f1b96c6b04bcb5f</sys_audit_delete>
+        <sys_audit_delete display_value="">11fb905c1b6730101f1b96c6b04bcb5f</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-10-27 19:52:17</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
         <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
         <sys_id>f95cf28b223543e0a8c40833d3ddb900</sys_id>
         <sys_metadata>b93058d01b6730101f1b96c6b04bcbe7</sys_metadata>
@@ -77,6 +78,7 @@
         <sys_package display_value="DateSelection" source="x_402400_dateselec">ce0098d01b6730101f1b96c6b04bcbe5</sys_package>
         <sys_parent/>
         <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="DateSelection">ce0098d01b6730101f1b96c6b04bcbe5</sys_scope>
         <sys_scope_delete display_value="">0041bf266d1048308af942dc15d82840</sys_scope_delete>
         <sys_update_name>sys_app_module_b93058d01b6730101f1b96c6b04bcbe7</sys_update_name>

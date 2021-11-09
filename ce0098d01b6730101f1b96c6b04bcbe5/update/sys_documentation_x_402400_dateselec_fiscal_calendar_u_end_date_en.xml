@@ -11,11 +11,13 @@
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2021-10-27 20:15:33</sys_created_on>
-            <sys_id>0a4128501ba730101f1b96c6b04bcb0b</sys_id>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>409a56081b3bf010c7b7bb751a4bcb80</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>End Date</sys_name>
             <sys_package display_value="DateSelection" source="x_402400_dateselec">ce0098d01b6730101f1b96c6b04bcbe5</sys_package>
             <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
             <sys_scope display_value="DateSelection">ce0098d01b6730101f1b96c6b04bcbe5</sys_scope>
             <sys_update_name>sys_documentation_x_402400_dateselec_fiscal_calendar_u_end_date_en</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>

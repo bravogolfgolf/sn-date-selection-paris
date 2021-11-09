@@ -8,11 +8,13 @@
         <sys_class_name>sys_atf_test_suite</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-10-28 20:49:42</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>b1627da81be330101f1b96c6b04bcb60</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Date Selection Suite</sys_name>
         <sys_package display_value="DateSelection" source="x_402400_dateselec">ce0098d01b6730101f1b96c6b04bcbe5</sys_package>
         <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="DateSelection">ce0098d01b6730101f1b96c6b04bcbe5</sys_scope>
         <sys_update_name>sys_atf_test_suite_b1627da81be330101f1b96c6b04bcb60</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>

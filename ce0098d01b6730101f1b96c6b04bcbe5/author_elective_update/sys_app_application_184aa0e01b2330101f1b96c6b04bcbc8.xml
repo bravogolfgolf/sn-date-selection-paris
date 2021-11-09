@@ -39,7 +39,7 @@
         <reverted_from/>
         <source>e51be0241b2330101f1b96c6b04bcbbd</source>
         <source_table>sys_update_set</source_table>
-        <state>current</state>
+        <state>previous</state>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-10-28 15:36:55</sys_created_on>
         <sys_id>d21b24241b2330101f1b96c6b04bcb9e</sys_id>
@@ -52,10 +52,11 @@
         <update_guid_history>d04aa0e03523301099412f4116f21bcb:896394322,2e0b202448233010fcdba0826942e391:51741335,d04aa0e03523301099412f4116f21bcb:896394322</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Fiscal Funding">8c6138681b2330101f1b96c6b04bcb5c</sys_audit_delete>
+        <sys_audit_delete display_value="">8c6138681b2330101f1b96c6b04bcb5c</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-10-28 16:04:21</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
         <sys_db_object display_value="" name="sys_app_application">sys_app_application</sys_db_object>
         <sys_id>9ec0aaf7f183486a929d795bb6eac079</sys_id>
         <sys_metadata>184aa0e01b2330101f1b96c6b04bcbc8</sys_metadata>
@@ -64,6 +65,7 @@
         <sys_package display_value="DateSelection" source="x_402400_dateselec">ce0098d01b6730101f1b96c6b04bcbe5</sys_package>
         <sys_parent/>
         <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="DateSelection">ce0098d01b6730101f1b96c6b04bcbe5</sys_scope>
         <sys_scope_delete display_value="">0041bf266d1048308af942dc15d82840</sys_scope_delete>
         <sys_update_name>sys_app_application_184aa0e01b2330101f1b96c6b04bcbc8</sys_update_name>

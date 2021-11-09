@@ -3,6 +3,7 @@
         <active>true</active>
         <application display_value="Date Selection">bd3064101ba730101f1b96c6b04bcb67</application>
         <assessment/>
+        <content_page/>
         <device_type/>
         <filter/>
         <hint/>
@@ -18,9 +19,12 @@
         <query>system_properties_ui.do?sysparm_title=Fiscal%20Year%20Application%20Properties&amp;sysparm_category=Fiscal%20Year%20Application%20Configuration</query>
         <report/>
         <roles/>
+        <survey/>
+        <survey_overwrite>false</survey_overwrite>
         <sys_class_name>sys_app_module</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-10-28 19:10:24</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>e96b1de41ba330101f1b96c6b04bcbe4</sys_id>
@@ -29,6 +33,7 @@
         <sys_overrides/>
         <sys_package display_value="DateSelection" source="x_402400_dateselec">ce0098d01b6730101f1b96c6b04bcbe5</sys_package>
         <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="DateSelection">ce0098d01b6730101f1b96c6b04bcbe5</sys_scope>
         <sys_update_name>sys_app_module_e96b1de41ba330101f1b96c6b04bcbe4</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>

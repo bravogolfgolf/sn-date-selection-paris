@@ -6,8 +6,7 @@
 The following fields are visible: Fiscal Year, Amount
 The following fields are not visible: Created, Created by, Tags, Updated, Updated by, Updates
 The following fields are not read only: Amount, Fiscal Year
-The following fields are mandatory: Amount
-The following fields are not mandatory: Fiscal Year
+The following fields are mandatory: Fiscal Year, Amount
 With a failure timeout of 5 Seconds</description>
         <display_name>Field State Validation</display_name>
         <inputs/>
@@ -21,15 +20,15 @@ With a failure timeout of 5 Seconds</description>
         <sys_created_on>2021-10-28 15:51:12</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>c43ee8a41b2330101f1b96c6b04bcb1c</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name>Field State Validation</sys_name>
         <sys_package display_value="DateSelection" source="x_402400_dateselec">ce0098d01b6730101f1b96c6b04bcbe5</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="DateSelection">ce0098d01b6730101f1b96c6b04bcbe5</sys_scope>
         <sys_update_name>sys_atf_step_c43ee8a41b2330101f1b96c6b04bcb1c</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-11-08 17:10:59</sys_updated_on>
+        <sys_updated_by>Brian.Gibson@Netimpactstrategies.com</sys_updated_by>
+        <sys_updated_on>2021-11-16 15:22:27</sys_updated_on>
         <table>x_402400_dateselec_fiscal_funding</table>
         <test display_value="Fiscal Funding Form">1d6d64a41b2330101f1b96c6b04bcbe7</test>
         <timeout>1970-01-01 00:00:05</timeout>
@@ -44,10 +43,10 @@ With a failure timeout of 5 Seconds</description>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-10-28 15:51:13</sys_created_on>
         <sys_id>275eaca41b2330101f1b96c6b04bcb1c</sys_id>
-        <sys_mod_count>3</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-11-08 17:10:59</sys_updated_on>
-        <value>u_fiscal_year</value>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_updated_by>Brian.Gibson@Netimpactstrategies.com</sys_updated_by>
+        <sys_updated_on>2021-11-16 15:22:27</sys_updated_on>
+        <value/>
         <variable display_value="">787a9b535320220002c6435723dc3455</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -86,10 +85,10 @@ With a failure timeout of 5 Seconds</description>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-10-28 15:51:13</sys_created_on>
         <sys_id>ab5eaca41b2330101f1b96c6b04bcb1c</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-11-08 17:10:59</sys_updated_on>
-        <value>u_amount</value>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>Brian.Gibson@Netimpactstrategies.com</sys_updated_by>
+        <sys_updated_on>2021-11-16 15:22:27</sys_updated_on>
+        <value>u_fiscal_year,u_amount</value>
         <variable display_value="">6e5a1b535320220002c6435723dc3498</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">

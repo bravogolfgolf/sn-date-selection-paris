@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role_contains">
+    <sys_user_role_contains action="INSERT_OR_UPDATE">
+        <contains display_value="x_402400_dateselec.user" name="x_402400_dateselec.user">657187761b4101106c166464604bcb16</contains>
+        <role display_value="x_402400_dateselec.admin" name="x_402400_dateselec.admin">9e428f761b4101106c166464604bcb4d</role>
+        <sys_class_name>sys_user_role_contains</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-18 15:58:30</sys_created_on>
+        <sys_id>356207b61b4101106c166464604bcb0f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_402400_dateselec.user.x_402400_dateselec.admin</sys_name>
+        <sys_package display_value="DateSelection" source="x_402400_dateselec">ce0098d01b6730101f1b96c6b04bcbe5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="DateSelection">ce0098d01b6730101f1b96c6b04bcbe5</sys_scope>
+        <sys_update_name>sys_user_role_contains_356207b61b4101106c166464604bcb0f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-18 15:58:30</sys_updated_on>
+    </sys_user_role_contains>
+</record_update>

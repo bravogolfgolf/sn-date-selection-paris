@@ -7,24 +7,22 @@
         <hint/>
         <name>Date Selection</name>
         <order>100</order>
-        <roles>x_402400_dateselec.fiscal_calendar_user</roles>
+        <roles>x_402400_dateselec.user</roles>
         <sys_class_name>sys_app_application</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-10-27 20:10:54</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>bd3064101ba730101f1b96c6b04bcb67</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>Date Selection</sys_name>
         <sys_overrides/>
         <sys_package display_value="DateSelection" source="x_402400_dateselec">ce0098d01b6730101f1b96c6b04bcbe5</sys_package>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="DateSelection">ce0098d01b6730101f1b96c6b04bcbe5</sys_scope>
         <sys_update_name>sys_app_application_bd3064101ba730101f1b96c6b04bcb67</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-10-27 20:10:54</sys_updated_on>
+        <sys_updated_on>2022-01-18 15:56:19</sys_updated_on>
         <title>Date Selection</title>
         <view_name/>
     </sys_app_application>

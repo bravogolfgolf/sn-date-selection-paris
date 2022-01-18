@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_product_help_p2s">
+    <sys_product_help_p2s action="INSERT_OR_UPDATE">
+        <column/>
+        <order/>
+        <page display_value="Date Selection">64b1dbf21b8101106c166464604bcb7b</page>
+        <section display_value="Date Selection">ad5d8bfe1b4101106c166464604bcba1</section>
+        <sys_class_name>sys_product_help_p2s</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-18 17:05:52</sys_created_on>
+        <sys_id>d6c11ff21b8101106c166464604bcbbd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="DateSelection" source="x_402400_dateselec">ce0098d01b6730101f1b96c6b04bcbe5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="DateSelection">ce0098d01b6730101f1b96c6b04bcbe5</sys_scope>
+        <sys_update_name>sys_product_help_p2s_d6c11ff21b8101106c166464604bcbbd</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-18 17:05:52</sys_updated_on>
+    </sys_product_help_p2s>
+</record_update>

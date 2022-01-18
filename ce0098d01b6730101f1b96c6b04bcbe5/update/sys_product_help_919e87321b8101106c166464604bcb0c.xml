@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_product_help">
+    <sys_product_help action="INSERT_OR_UPDATE">
+        <number>DS0010002</number>
+        <order>10</order>
+        <published>2022-01-18</published>
+        <section display_value="Date Selection">ad5d8bfe1b4101106c166464604bcba1</section>
+        <short_description>Fiscal Funding</short_description>
+        <sys_class_name>sys_product_help</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-18 16:52:34</sys_created_on>
+        <sys_id>919e87321b8101106c166464604bcb0c</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>DS0010002</sys_name>
+        <sys_package display_value="DateSelection" source="x_402400_dateselec">ce0098d01b6730101f1b96c6b04bcbe5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="DateSelection">ce0098d01b6730101f1b96c6b04bcbe5</sys_scope>
+        <sys_update_name>sys_product_help_919e87321b8101106c166464604bcb0c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-18 17:40:27</sys_updated_on>
+        <text><![CDATA[<p>Fiscal Funding help document</p>]]></text>
+        <workflow_state>published</workflow_state>
+    </sys_product_help>
+    <sys_translated_text action="delete_multiple" query="documentkey=919e87321b8101106c166464604bcb0c"/>
+</record_update>

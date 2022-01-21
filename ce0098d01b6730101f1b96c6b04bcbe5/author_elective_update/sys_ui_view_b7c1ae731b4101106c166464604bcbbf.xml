@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_view">
+    <sys_ui_view action="DELETE">
+        <group/>
+        <hidden>false</hidden>
+        <name>investigate</name>
+        <roles/>
+        <sys_class_name>sys_ui_view</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-21 16:10:01</sys_created_on>
+        <sys_id>b7c1ae731b4101106c166464604bcbbf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Investigate</sys_name>
+        <sys_package display_value="DateSelection" source="x_402400_dateselec">ce0098d01b6730101f1b96c6b04bcbe5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="DateSelection">ce0098d01b6730101f1b96c6b04bcbe5</sys_scope>
+        <sys_update_name>sys_ui_view_b7c1ae731b4101106c166464604bcbbf</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-21 16:10:01</sys_updated_on>
+        <title>Investigate</title>
+        <user/>
+    </sys_ui_view>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="DateSelection">ce0098d01b6730101f1b96c6b04bcbe5</application>
+        <file_path/>
+        <instance_id>037add74db083c50601a11f848961964</instance_id>
+        <instance_name>dev114172</instance_name>
+        <name>sys_ui_view_b7c1ae731b4101106c166464604bcbbf</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_view"><sys_ui_view action="INSERT_OR_UPDATE"><group/><hidden>false</hidden><name>investigate</name><roles/><sys_class_name>sys_ui_view</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-01-21 16:10:01</sys_created_on><sys_id>b7c1ae731b4101106c166464604bcbbf</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Investigate</sys_name><sys_package display_value="DateSelection" source="x_402400_dateselec">ce0098d01b6730101f1b96c6b04bcbe5</sys_package><sys_policy/><sys_scope display_value="DateSelection">ce0098d01b6730101f1b96c6b04bcbe5</sys_scope><sys_update_name>sys_ui_view_b7c1ae731b4101106c166464604bcbbf</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-01-21 16:10:01</sys_updated_on><title>Investigate</title><user/></sys_ui_view></record_update>]]></payload>
+        <payload_hash>2100661468</payload_hash>
+        <record_name>Investigate</record_name>
+        <reverted_from/>
+        <source>5b75c8031b0501106c166464604bcb6c</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-21 16:10:01</sys_created_on>
+        <sys_id>f7c1ae731b4101106c166464604bcbc2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17e7d66e3400000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-21 16:10:01</sys_updated_on>
+        <type>UI View</type>
+        <update_guid>33c1ae7351410110479509174ded92c2</update_guid>
+        <update_guid_history>33c1ae7351410110479509174ded92c2:2100661468</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-21 16:16:50</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_view">sys_ui_view</sys_db_object>
+        <sys_id>0add1ad38c3d4f408c99d606fd1e1000</sys_id>
+        <sys_metadata>b7c1ae731b4101106c166464604bcbbf</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Investigate</sys_name>
+        <sys_package display_value="DateSelection" source="x_402400_dateselec">ce0098d01b6730101f1b96c6b04bcbe5</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="DateSelection">ce0098d01b6730101f1b96c6b04bcbe5</sys_scope>
+        <sys_scope_delete display_value="">0041bf266d1048308af942dc15d82840</sys_scope_delete>
+        <sys_update_name>sys_ui_view_b7c1ae731b4101106c166464604bcbbf</sys_update_name>
+        <sys_update_version display_value="sys_ui_view_b7c1ae731b4101106c166464604bcbbf">f7c1ae731b4101106c166464604bcbc2</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-21 16:16:50</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -3,27 +3,28 @@
         <active>true</active>
         <copied_from/>
         <description>Set the following values on the form:
-Fiscal Year = FY23
+Fiscal Year = {{Step 1: Record Insert.Record}}
 and Amount = $100.00</description>
         <display_name>Set Field Values</display_name>
         <inputs/>
+        <inputs/>
         <mugshots_cache_json/>
         <notes/>
-        <order>3</order>
+        <order>4</order>
         <snapshot/>
         <step_config display_value="Set Field Values">fcae4a935332120028bc29cac2dc340e</step_config>
         <sys_class_name>sys_atf_step</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-10-28 15:54:32</sys_created_on>
         <sys_id>0a0f68e41b2330101f1b96c6b04bcb62</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name>Set Field Values</sys_name>
         <sys_package display_value="DateSelection" source="x_402400_dateselec">ce0098d01b6730101f1b96c6b04bcbe5</sys_package>
         <sys_policy/>
         <sys_scope display_value="DateSelection">ce0098d01b6730101f1b96c6b04bcbe5</sys_scope>
         <sys_update_name>sys_atf_step_0a0f68e41b2330101f1b96c6b04bcb62</sys_update_name>
-        <sys_updated_by>Brian.Gibson@Netimpactstrategies.com</sys_updated_by>
-        <sys_updated_on>2021-11-08 20:51:49</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-21 20:53:05</sys_updated_on>
         <table>x_402400_dateselec_fiscal_funding</table>
         <test display_value="Fiscal Funding Form">1d6d64a41b2330101f1b96c6b04bcbe7</test>
         <timeout/>
@@ -38,10 +39,10 @@ and Amount = $100.00</description>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-10-28 15:54:32</sys_created_on>
         <sys_id>942fa4e41b2330101f1b96c6b04bcba3</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_updated_by>Brian.Gibson@Netimpactstrategies.com</sys_updated_by>
-        <sys_updated_on>2021-11-08 20:51:49</sys_updated_on>
-        <value>u_fiscal_year=8b4cda881b3bf010c7b7bb751a4bcbfb^u_amount=javascript:global.getCurrencyFilter('x_402400_dateselec_fiscal_funding','u_amount', 'USD;100')^EQ</value>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-21 20:53:05</sys_updated_on>
+        <value>u_fiscal_year={{step['e20223b71b4501106c166464604bcb11'].record_id}}^u_amount=javascript:global.getCurrencyFilter('x_402400_dateselec_fiscal_funding','u_amount', 'USD;100')^EQ</value>
         <variable display_value="Field values">b3dba2465320220002c6435723dc34f0</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -72,5 +73,17 @@ and Amount = $100.00</description>
         <value>standard_ui</value>
         <variable display_value="Form UI">946f3c1a0f23330072e6452bc4767eda</variable>
     </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="table=var__m_atf_input_variable_fcae4a935332120028bc29cac2dc340e^id=0a0f68e41b2330101f1b96c6b04bcb62"/>
+    <sys_element_mapping action="delete_multiple" query="id=0a0f68e41b2330101f1b96c6b04bcb62"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>field_values</field>
+        <id>0a0f68e41b2330101f1b96c6b04bcb62</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-21 20:53:05</sys_created_on>
+        <sys_id>0a92e7b71b4501106c166464604bcba8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-21 20:53:05</sys_updated_on>
+        <table>var__m_atf_input_variable_fcae4a935332120028bc29cac2dc340e</table>
+        <value>u_fiscal_year={{step['e20223b71b4501106c166464604bcb11'].record_id}}^u_amount=javascript:global.getCurrencyFilter('x_402400_dateselec_fiscal_funding','u_amount', 'USD;100')^EQ</value>
+    </sys_element_mapping>
 </record_update>

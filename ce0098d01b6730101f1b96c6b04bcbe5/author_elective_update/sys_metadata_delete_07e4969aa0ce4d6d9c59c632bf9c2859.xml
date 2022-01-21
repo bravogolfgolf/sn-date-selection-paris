@@ -56,7 +56,6 @@
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-10-27 19:52:40</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_db_object display_value="" name="sys_app_application">sys_app_application</sys_db_object>
         <sys_id>07e4969aa0ce4d6d9c59c632bf9c2859</sys_id>
         <sys_metadata>b13058d01b6730101f1b96c6b04bcbde</sys_metadata>
@@ -65,7 +64,6 @@
         <sys_package display_value="DateSelection" source="x_402400_dateselec">ce0098d01b6730101f1b96c6b04bcbe5</sys_package>
         <sys_parent/>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="DateSelection">ce0098d01b6730101f1b96c6b04bcbe5</sys_scope>
         <sys_scope_delete display_value="">0041bf266d1048308af942dc15d82840</sys_scope_delete>
         <sys_update_name>sys_metadata_delete_07e4969aa0ce4d6d9c59c632bf9c2859</sys_update_name>

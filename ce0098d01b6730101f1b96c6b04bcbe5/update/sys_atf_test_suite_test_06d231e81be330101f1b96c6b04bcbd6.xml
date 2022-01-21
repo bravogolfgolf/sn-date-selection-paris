@@ -5,13 +5,11 @@
         <sys_class_name>sys_atf_test_suite_test</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-10-28 20:50:29</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_id>06d231e81be330101f1b96c6b04bcbd6</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>1d6d64a41b2330101f1b96c6b04bcbe7</sys_name>
         <sys_package display_value="DateSelection" source="x_402400_dateselec">ce0098d01b6730101f1b96c6b04bcbe5</sys_package>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="DateSelection">ce0098d01b6730101f1b96c6b04bcbe5</sys_scope>
         <sys_update_name>sys_atf_test_suite_test_06d231e81be330101f1b96c6b04bcbd6</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>

@@ -3,7 +3,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>u_name</element>
-            <list_id display_value="x_402400_dateselec_fiscal_calendar" element="NULL" name="x_402400_dateselec_fiscal_calendar" parent="NULL" relationship="NULL" sys_domain="global" view="f48807104f022200c8bdc0818110c75d">9cec2c641b2330101f1b96c6b04bcb60</list_id>
+            <list_id display_value="x_402400_dateselec_fiscal_calendar" element="NULL" name="x_402400_dateselec_fiscal_calendar" parent="NULL" relationship="NULL" sys_domain="global" view="6badd262a5300110c0a0e1db2cdc950c">9cec2c641b2330101f1b96c6b04bcb60</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>0</position>
@@ -28,7 +28,6 @@
             <sys_class_name>sys_ui_list</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2021-10-28 15:44:42</sys_created_on>
-            <sys_customer_update>false</sys_customer_update>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>9cec2c641b2330101f1b96c6b04bcb60</sys_id>
@@ -36,13 +35,12 @@
             <sys_name>x_402400_dateselec_fiscal_calendar</sys_name>
             <sys_package display_value="DateSelection" source="x_402400_dateselec">ce0098d01b6730101f1b96c6b04bcbe5</sys_package>
             <sys_policy/>
-            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
             <sys_scope display_value="DateSelection">ce0098d01b6730101f1b96c6b04bcbe5</sys_scope>
             <sys_update_name>sys_ui_list_x_402400_dateselec_fiscal_calendar_sys_ref_list</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2021-10-28 15:44:42</sys_updated_on>
             <sys_user/>
-            <view display_value="Reference List" name="sys_ref_list">f48807104f022200c8bdc0818110c75d</view>
+            <view display_value="Reference List" name="sys_ref_list">6badd262a5300110c0a0e1db2cdc950c</view>
             <view_name/>
         </sys_ui_list>
     </sys_ui_list>

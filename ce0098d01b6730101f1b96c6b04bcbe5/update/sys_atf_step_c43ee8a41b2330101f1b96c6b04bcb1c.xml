@@ -18,13 +18,11 @@ With a failure timeout of 5 Seconds</description>
         <sys_class_name>sys_atf_step</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-10-28 15:51:12</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_id>c43ee8a41b2330101f1b96c6b04bcb1c</sys_id>
         <sys_mod_count>5</sys_mod_count>
         <sys_name>Field State Validation</sys_name>
         <sys_package display_value="DateSelection" source="x_402400_dateselec">ce0098d01b6730101f1b96c6b04bcbe5</sys_package>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="DateSelection">ce0098d01b6730101f1b96c6b04bcbe5</sys_scope>
         <sys_update_name>sys_atf_step_c43ee8a41b2330101f1b96c6b04bcb1c</sys_update_name>
         <sys_updated_by>Brian.Gibson@Netimpactstrategies.com</sys_updated_by>
@@ -47,7 +45,7 @@ With a failure timeout of 5 Seconds</description>
         <sys_updated_by>Brian.Gibson@Netimpactstrategies.com</sys_updated_by>
         <sys_updated_on>2021-11-16 15:22:27</sys_updated_on>
         <value/>
-        <variable display_value="">787a9b535320220002c6435723dc3455</variable>
+        <variable display_value="Not mandatory">787a9b535320220002c6435723dc3455</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_atf_step</document>
@@ -61,7 +59,7 @@ With a failure timeout of 5 Seconds</description>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-10-28 15:51:13</sys_updated_on>
         <value>sys_created_on,sys_created_by,sys_tags,sys_updated_on,sys_updated_by,sys_mod_count</value>
-        <variable display_value="">e81ad3535320220002c6435723dc340c</variable>
+        <variable display_value="Not visible">e81ad3535320220002c6435723dc340c</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_atf_step</document>
@@ -75,7 +73,7 @@ With a failure timeout of 5 Seconds</description>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-10-28 15:51:13</sys_updated_on>
         <value>x_402400_dateselec_fiscal_funding</value>
-        <variable display_value="">80f953535320220002c6435723dc340f</variable>
+        <variable display_value="Table">80f953535320220002c6435723dc340f</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_atf_step</document>
@@ -89,7 +87,7 @@ With a failure timeout of 5 Seconds</description>
         <sys_updated_by>Brian.Gibson@Netimpactstrategies.com</sys_updated_by>
         <sys_updated_on>2021-11-16 15:22:27</sys_updated_on>
         <value>u_fiscal_year,u_amount</value>
-        <variable display_value="">6e5a1b535320220002c6435723dc3498</variable>
+        <variable display_value="Mandatory">6e5a1b535320220002c6435723dc3498</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_atf_step</document>
@@ -103,7 +101,7 @@ With a failure timeout of 5 Seconds</description>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-10-28 15:51:13</sys_updated_on>
         <value/>
-        <variable display_value="">592a17535320220002c6435723dc34d7</variable>
+        <variable display_value="Read only">592a17535320220002c6435723dc34d7</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_atf_step</document>
@@ -117,7 +115,7 @@ With a failure timeout of 5 Seconds</description>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-10-28 15:51:13</sys_updated_on>
         <value>standard_ui</value>
-        <variable display_value="">b1fefcde73633300b19898b8caf6a7af</variable>
+        <variable display_value="Form UI">b1fefcde73633300b19898b8caf6a7af</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_atf_step</document>
@@ -131,7 +129,7 @@ With a failure timeout of 5 Seconds</description>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-10-28 15:51:13</sys_updated_on>
         <value>u_fiscal_year,u_amount</value>
-        <variable display_value="">0cd9df135320220002c6435723dc3426</variable>
+        <variable display_value="Visible">0cd9df135320220002c6435723dc3426</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_atf_step</document>
@@ -145,6 +143,6 @@ With a failure timeout of 5 Seconds</description>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-10-28 15:53:01</sys_updated_on>
         <value>u_amount,u_fiscal_year</value>
-        <variable display_value="">e63a97535320220002c6435723dc34b8</variable>
+        <variable display_value="Not read only">e63a97535320220002c6435723dc34b8</variable>
     </sys_variable_value>
 </record_update>

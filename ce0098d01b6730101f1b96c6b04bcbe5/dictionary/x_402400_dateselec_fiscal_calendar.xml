@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="Fiscal Calendar" max_length="40" name="x_402400_dateselec_fiscal_calendar" sizeclass="3" type="collection">
+    <element label="Fiscal Calendar" max_length="40" name="x_402400_dateselec_fiscal_calendar" sizeclass="0" type="collection">
         <element label="End Date" max_length="40" name="u_end_date" type="glide_date_time"/>
         <element label="Name" max_length="40" name="u_name" type="string"/>
         <element label="Start Date" max_length="40" name="u_start_date" type="glide_date_time"/>
